@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Esta classe é responsável por direcionar as ações do usuário na tela principal do jogo.
+*/
 public class ButtonController : MonoBehaviour
 {
     // Inicia o jogo
