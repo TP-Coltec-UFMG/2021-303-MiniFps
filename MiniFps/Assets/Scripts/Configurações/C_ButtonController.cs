@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /*
- * Esta classe é responsável por armazenar/direcionar as demandads do jogadore referente as configurações do jogo.
+ * Esta classe é responsável por armazenar/direcionar as demandads do jogador referente as configurações do jogo.
 */
 public class C_ButtonController : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class C_ButtonController : MonoBehaviour
     [SerializeField] private Dropdown TamanhoDaFonte;
 
     /* Caminho para o arquivo que armazena os dados desse objeto */
-    private string SavePath = "Assets/Data/Configuracoes.json";
+    private string SavePath = "Assets\\Data\\Configuracoes.json";
 
     void Start(){
         this.LoadData();
