@@ -2,6 +2,10 @@
     "Sensibilidade": 50.0,
     "FOV": 60.0,
     "SonsSecundarios": true,
-    "ModoDaltonico": false,
+    "ModoDaltonico": [
+        false,
+        false,
+        false
+    ],
     "TamanhoDaFonte": 0
 }

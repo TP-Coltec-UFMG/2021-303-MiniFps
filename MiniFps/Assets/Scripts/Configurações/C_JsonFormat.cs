@@ -14,12 +14,12 @@ public class C_JsonFormat
     /* Sons secundários(Desnecessários para jogar, mas que melhoram a experiência) */
     public bool SonsSecundarios;
     /* Modo Daltonico(Define o jogo com cores altamente discrepantes) */
-    public bool ModoDaltonico;
+    public bool[] ModoDaltonico;
     /* Tamanho da fonte utilizado */
     public int TamanhoDaFonte;
 
     // Construtor responsável por inicializar os dados deste objeto.
-    public C_JsonFormat(float sensibilidade, float fov, bool sonsSecundarios, bool modoDaltonico, int tamanhoFonte){
+    public C_JsonFormat(float sensibilidade, float fov, bool sonsSecundarios, bool[] modoDaltonico, int tamanhoFonte){
         this.Sensibilidade = sensibilidade;
         this.FOV = fov;
         this.SonsSecundarios = sonsSecundarios;
