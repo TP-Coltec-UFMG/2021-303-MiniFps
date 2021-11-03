@@ -33,18 +33,18 @@ Responsável: [Erik Neves](https://github.com/erikneves04)
 - [ ] Adicionar barreiras na lateral do mapa;
 
 ### Player:
-Responsável:
+Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
 
 ### Inimigo:
-Responsável:
+Responsável: [Julia Rezende](https://github.com/juliarezende34)
 
 ### Objetos das armas:
-Responsável:
+Responsável: [Henrique Melo](https://github.com/hmelo2509)
 
 ## Configurações:
-- [ ] Adequação dos scripts de controle das configurações;
-- [ ] Adequação do salvamento/carregamento dos dados;
-- [ ] Adequação da cena para ser carregada como uma pop-up em outra;
+- [x] Adequação dos scripts de controle das configurações;
+- [x] Adequação do salvamento/carregamento dos dados;
+- [x] Adequação da cena para ser carregada como uma pop-up em outra;
 
 ## User interface:
 - [ ] Slots para armas;
@@ -70,6 +70,7 @@ Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a se
 
 
 ## _Download_
+Em breve...
 
 ### Pré-requisitos
 

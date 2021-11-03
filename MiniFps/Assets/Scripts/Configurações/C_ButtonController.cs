@@ -9,21 +9,21 @@ using UnityEngine.SceneManagement;
 public class C_ButtonController : MonoBehaviour
 {
     // Script que manipula os dados.
-    private C_SettingsControl Manager;
+    [SerializeField] private C_SettingsControl Manager;
 
     void Start(){
-        this.Manager = GameObject.Find("SettingsControl").GetComponent<C_SettingsControl>();
+        this.Main = GameObject.Find("ButtonController").GetComponent<MP_ButtonController>();
     }
 
-    // Retorna ao menu principal -- SEM SALVAR AS ALTERAÇÕES
-    public void BackToMainManu(){
-        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
+    // Fecha as configurações -- SEM SALVAR AS ALTERAÇÕES
+    public void CloseConfig(){
+        SceneManager.UnloadSceneAsync("Configuracoes");
     }
 
-    // Retorna ao menu principal -- SALVANDO AS ALTERAÇÕES
-    public void BackToMainManu_SAVE(){
+    // Fecha as configurações -- SALVANDO AS ALTERAÇÕES
+    public void CloseConfig_SAVE(){
         this.Manager.SaveData();
-        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
+        SceneManager.UnloadSceneAsync("Configuracoes");
     }
 
     // Chama o método para resetar as configurações.

@@ -15,7 +15,7 @@ public class MP_ButtonController : MonoBehaviour
 
     // Abre as configurações
     public void Settings(){ 
-        SceneManager.LoadScene("Settings", LoadSceneMode.Single);
+        SceneManager.LoadScene("Configuracoes", LoadSceneMode.Additive);
     }
 
     // Encerra o jogo
