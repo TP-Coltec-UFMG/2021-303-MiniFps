@@ -35,6 +35,14 @@ Responsável: [Erik Neves](https://github.com/erikneves04)
 ### Player:
 Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
 
+- [ ] Configuração da movimentação do jogador;
+- [ ] Criação de códigos de controle (Inicio);
+- [ ] Criação de um corpo para o jogador (câmera 1° pessoa ficará na cabeça);
+- [ ] Adicionar recebimento de dano;
+- [ ] Adicionar stamina;
+- [ ] Adicionar possibilidade de regeneração;
+- [ ] Configuração das relações com as armas do jogador;
+
 ### Inimigo:
 Responsável: [Julia Rezende](https://github.com/juliarezende34)
 
