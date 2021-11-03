@@ -44,7 +44,8 @@ Responsável:
 **Acessibilidade:**
 Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a seus requisitos;
 
-- [ ] Daltonismo;
+- [ ] Destaque entre o inimigo e o resto do mapa(Para daltonicos);
+- [ ] Padrões de cores aprovador pelo [Adobe color](https://color.adobe.com/pt/create/color-wheel);
 - [ ] Sons secundários - Facilita a percepção para deficientes visuais saberem onde está o inimigo mais próximo;
 - [ ] Tamanho da Fonte;
 - [ ] 🔊 Narração do menu e das legendas para cegos;
