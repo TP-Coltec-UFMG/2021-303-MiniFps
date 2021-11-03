@@ -42,17 +42,17 @@ Responsável:
 Responsável:
 
 ## Configurações:
--[ ] Adequação dos scripts de controle das configurações;
--[ ] Adequação do salvamento/carregamento dos dados;
--[ ] Adequação da cena para ser carregada como uma pop-up em outra;
+- [ ] Adequação dos scripts de controle das configurações;
+- [ ] Adequação do salvamento/carregamento dos dados;
+- [ ] Adequação da cena para ser carregada como uma pop-up em outra;
 
 ## User interface:
--[ ] Slots para armas;
--[ ] Contador de balas;
--[ ] Mostrador de vida;
--[ ] Mostrador de stamina;
--[ ] Mostrador de comida(ou algo pra regenerar);
--[ ] Mini-mapa;
+- [ ] Slots para armas;
+- [ ] Contador de balas;
+- [ ] Mostrador de vida;
+- [ ] Mostrador de stamina;
+- [ ] Mostrador de comida(ou algo pra regenerar);
+- [ ] Mini-mapa;
 
 ## Multiplayer online: -> Se sobrar tempo...
 
