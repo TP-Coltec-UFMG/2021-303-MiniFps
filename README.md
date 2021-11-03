@@ -46,6 +46,14 @@ Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
 ### Inimigo:
 Responsável: [Julia Rezende](https://github.com/juliarezende34)
 
+- [ ] Definir as características do inimigo;
+- [ ] Modelar o personagem;
+- [ ] Gerenciar a movimentação;
+- [ ] Selecionar o alvo;
+- [ ] Adicionar recebimento de dano;
+- [ ] Adicionar stamina (Extra);
+- [ ] Criar momento em que o inimigo "morre";
+
 ### Objetos das armas:
 Responsável: [Henrique Melo](https://github.com/hmelo2509)
 
