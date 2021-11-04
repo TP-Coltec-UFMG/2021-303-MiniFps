@@ -20,6 +20,8 @@
 A seguir é apresentado o planejamento inicial do projeto que pode(e vai) sofrer alterações com o passar do tempo.
 Vale ressaltar que prints do desenvolvimento serão anexados ao projeto para facilitar a visualização do desenvolvimento.
 
+Obs.: Imagens do menu no fim do readme...
+
 ### Mapa:
 Responsável: [Erik Neves](https://github.com/erikneves04)
 
@@ -70,10 +72,7 @@ Responsável: [Henrique Melo](https://github.com/hmelo2509)
 - [ ] Mostrador de comida(ou algo pra regenerar);
 - [ ] Mini-mapa;
 
-## Multiplayer online: -> Se sobrar tempo...
-
-
-**Acessibilidade:**
+**Acessibilidade // Configurações gerais:**
 Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a seus requisitos;
 
 - [ ] Destaque entre o inimigo e o resto do mapa(Para daltonicos);
@@ -81,9 +80,18 @@ Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a se
 - [ ] Sons secundários - Facilita a percepção para deficientes visuais saberem onde está o inimigo mais próximo;
 - [ ] Tamanho da Fonte;
 - [ ] 🔊 Narração do menu e das legendas para cegos;
+- [ ]  FOV - Campo de Visão;
+- [ ]  Sensibilidade;
 
+## Menu 
 
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Entrada(Esbo%C3%A7o).jpeg?raw=true">
 
+### Configurações 
+
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Configura%C3%A7%C3%B5es(Esbo%C3%A7o).png?raw=true">
+
+## Multiplayer online: -> Se sobrar tempo...
 
 ## _Download_
 Em breve...
