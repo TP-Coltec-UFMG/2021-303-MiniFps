@@ -89,7 +89,7 @@ Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a se
 
 ### Configurações 
 
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Configura%C3%A7%C3%B5es(Esbo%C3%A7o).png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Configura%C3%A7%C3%B5es.png?raw=true">
 
 ## Multiplayer online: -> Se sobrar tempo...
 
