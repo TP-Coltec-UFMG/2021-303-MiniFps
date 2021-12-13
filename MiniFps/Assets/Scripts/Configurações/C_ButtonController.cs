@@ -12,7 +12,7 @@ public class C_ButtonController : MonoBehaviour
     [SerializeField] private C_SettingsControl Manager;
 
     void Start(){
-        this.Main = GameObject.Find("ButtonController").GetComponent<MP_ButtonController>();
+        //this.Main = GameObject.Find("ButtonController").GetComponent<MP_ButtonController>();
     }
 
     // Fecha as configurações -- SEM SALVAR AS ALTERAÇÕES

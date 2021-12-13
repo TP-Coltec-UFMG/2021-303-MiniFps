@@ -1,7 +1,6 @@
-
 [![Unity - 2020.3.15f2](https://img.shields.io/badge/Unity-2020.3.15f2-ffffff)]()  [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-# Mini FPS
+# Mini FPS(NOME PROVISÓRIO)
 
 > O MiniFPS é um jogo de combate feito através da Engine Unity. O intuito é que seja acessível e divertido para todo tipo de jogador.
 
@@ -20,19 +19,37 @@
 A seguir é apresentado o planejamento inicial do projeto que pode(e vai) sofrer alterações com o passar do tempo.
 Vale ressaltar que prints do desenvolvimento serão anexados ao projeto para facilitar a visualização do desenvolvimento.
 
-Obs.: Imagens do menu no fim do readme...
-
 ### Mapa:
 Responsável: [Erik Neves](https://github.com/erikneves04)
 
-- [ ] Definição das imagens de base;
-- [ ] Adicionar relevo;
+- [x] Definição das imagens de base;
+- [x] Adicionar relevo;
 - [ ] Adicionar os caminhos;
-- [ ] Adicionar as árvores;
+- [x] Adicionar as árvores;
 - [ ] Adicionar a grama;
 - [ ] Adicionar água(simulação);
 - [ ] Adicionar construções;
 - [ ] Adicionar barreiras na lateral do mapa;
+
+O ambiente do jogo encontra-se em sua primeira versão, ainda com muitas pendências e com objetos para testes.
+Inicialmente a água é somente uma malha azul, entretanto, será implementado um novo modelo em breve...
+
+A capsula representa o tamanho(aproximado) do player.
+
+Foto #01, imagem superior do mapa, sem renderização dos demais objetos:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2301.png?raw=true" >
+
+Foto #02, imagem lateral:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2302.png?raw=true">
+
+Foto #03, imgem de uma ilha secundária:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2303.png?raw=true">
+
+Foto #04, imagem do topo da ilha:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2304.png?raw=true">
+
+Foto #04, imagem de uma área onde será construído um vilarejo:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2305.png?raw=true">
 
 ### Player:
 Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
