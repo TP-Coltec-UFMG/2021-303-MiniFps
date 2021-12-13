@@ -37,19 +37,19 @@ Inicialmente a água é somente uma malha azul, entretanto, será implementado u
 A capsula representa o tamanho(aproximado) do player.
 
 Foto #01, imagem superior do mapa, sem renderização dos demais objetos:
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/#01.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2301.png?raw=true" >
 
 Foto #02, imagem lateral:
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/#02.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2302.png?raw=true">
 
 Foto #03, imgem de uma ilha secundária:
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/#03.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2303.png?raw=true">
 
 Foto #04, imagem do topo da ilha:
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/#04.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2304.png?raw=true">
 
 Foto #04, imagem de uma área onde será construído um vilarejo:
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/#05.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/Mapa/%2305.png?raw=true">
 
 ### Player:
 Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
