@@ -54,9 +54,10 @@ Foto #04, imagem de uma área onde será construído um vilarejo:
 ### Player:
 Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
 
-- [ ] Configuração da movimentação do jogador;
-- [ ] Criação de códigos de controle (Inicio);
-- [ ] Criação de um corpo para o jogador (câmera 1° pessoa ficará na cabeça);
+- [x] Criação do corpo de jogador (não definitivo);
+- [x] Criação do sistema de visão do jogador em Primeira Pessoa;
+- [x] Configuração da movimentação do jogador;
+- [x] Criação de códigos de controle (Inicio);
 - [ ] Adicionar recebimento de dano;
 - [ ] Adicionar stamina;
 - [ ] Adicionar possibilidade de regeneração;
