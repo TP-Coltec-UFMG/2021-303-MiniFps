@@ -65,13 +65,19 @@ Responsável: [Alexandre Hobbes](https://github.com/AlexandreHobbes)
 ### Inimigo:
 Responsável: [Julia Rezende](https://github.com/juliarezende34)
 
-- [ ] Definir as características do inimigo;
+- [x] Definir as características do inimigo;
 - [ ] Modelar o personagem;
-- [ ] Gerenciar a movimentação;
-- [ ] Selecionar o alvo;
+- [x] Gerenciar a movimentação;
+- [x] Selecionar o alvo;
 - [ ] Adicionar recebimento de dano;
 - [ ] Adicionar stamina (Extra);
 - [ ] Criar momento em que o inimigo "morre";
+
+Foto #01, imagem superior do mapa, sem renderização:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/cena%201%20-%20Inimigo.png?raw=true" >
+
+Foto #02, imagem com renderização, no modo play:
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/cena%202%20-%20Inimigo.png?raw=true" >
 
 ### Objetos das armas:
 Responsável: [Henrique Melo](https://github.com/hmelo2509)
