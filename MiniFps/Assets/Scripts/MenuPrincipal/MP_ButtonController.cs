@@ -10,7 +10,7 @@ public class MP_ButtonController : MonoBehaviour
 {
     // Inicia o jogo
     public void StarGame_SinglePlayer(){
-
+        SceneManager.LoadScene("Mapa Base", LoadSceneMode.Single);
     }
 
     // Abre as configurações
