@@ -24,11 +24,11 @@ Responsável: [Erik Neves](https://github.com/erikneves04)
 
 - [x] Definição das imagens de base;
 - [x] Adicionar relevo;
-- [ ] Adicionar os caminhos;
+- [x] Adicionar os caminhos;
 - [x] Adicionar as árvores;
-- [ ] Adicionar a grama;
-- [ ] Adicionar água(simulação);
-- [ ] Adicionar construções;
+- [x] Adicionar a grama;
+- [x] Adicionar água(simulação);
+- [x] Adicionar construções;
 - [ ] Adicionar barreiras na lateral do mapa;
 
 O ambiente do jogo encontra-se em sua primeira versão, ainda com muitas pendências e com objetos para testes.
