@@ -11,8 +11,8 @@ public class HudControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.LifeControl.AnimacaoInicial(2f);
-        this.StaminaControl.AnimacaoInicial(2f);      
+        this.LifeControl.AnimacaoInicial(0f);
+        this.StaminaControl.AnimacaoInicial(0f);      
     }
     
 }

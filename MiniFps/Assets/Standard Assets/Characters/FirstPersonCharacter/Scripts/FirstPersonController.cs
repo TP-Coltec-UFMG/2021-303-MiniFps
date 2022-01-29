@@ -10,7 +10,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CharacterController))]
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
-    {
+    {      
+        // CONTROLES DA ESTAMINA 
+        public int EstaminaCount = 800;
+        public bool UpStamina = false;
+        public bool DownStamina = false;
+        //[SerializeField] private StaminaBar EstaminaHUD;
+
         [SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
@@ -79,6 +85,32 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_CharacterController.isGrounded && !m_Jumping && m_PreviouslyGrounded)
             {
                 m_MoveDir.y = 0f;
+            }
+
+            if(Input.GetKey(KeyCode.LeftShift) && this.EstaminaCount > 0){
+                this.EstaminaCount -= 2;
+                if(this.EstaminaCount < 0) this.EstaminaCount = 0;
+                if(this.EstaminaCount == 700 || this.EstaminaCount == 600 || this.EstaminaCount == 500 
+                || this.EstaminaCount == 400 || this.EstaminaCount == 300 || this.EstaminaCount == 200
+                || this.EstaminaCount == 100 || this.EstaminaCount == 0){
+                    this.DownStamina = true;
+                }
+
+            }
+            if(!Input.GetKey(KeyCode.LeftShift) && this.EstaminaCount < 800){
+                this.EstaminaCount += 1;
+                if(this.EstaminaCount == 700 || this.EstaminaCount == 600 || this.EstaminaCount == 500
+                || this.EstaminaCount == 400 || this.EstaminaCount == 300 || this.EstaminaCount == 200
+                || this.EstaminaCount == 100 || this.EstaminaCount == 800){
+                    this.UpStamina = true;
+                }
+            }
+            if(this.EstaminaCount == 0){
+                this.m_RunSpeed = 2.5f;
+                this.m_WalkSpeed = 2.5f;
+            }else{
+                this.m_RunSpeed = 10f;
+                this.m_WalkSpeed = 5f;    
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;

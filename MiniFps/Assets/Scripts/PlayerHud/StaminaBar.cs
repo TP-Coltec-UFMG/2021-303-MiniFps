@@ -2,29 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class StaminaBar : MonoBehaviour
 {
     [SerializeField] private Image[] Slots;
     [SerializeField] private Sprite StaminaCheia;
     [SerializeField] private Sprite StaminaVazia;
+    [SerializeField] private FirstPersonController PlayerController;
 
     private int QuantidadeSlots = 8; // Inicio
     private int AnimacaoSlotsCount;
+
+    void Update(){
+        if(PlayerController.UpStamina){
+            PlayerController.UpStamina = false;
+            this.AddStamina();
+            
+        }
+        if(PlayerController.DownStamina){
+            PlayerController.DownStamina = false;
+            this.RemoveStamina();
+        } 
+    }
 
     public void AnimacaoInicial(float StarDelay){
         Invoke("LoadAnimacaoStamina", StarDelay);      
     }
 
     public void AddStamina(){
-        if(this.QuantidadeSlots >= 4) return;
+        if(this.QuantidadeSlots >= 8) return;
         this.Slots[this.QuantidadeSlots].sprite = this.StaminaCheia;
         this.QuantidadeSlots++;
     }
     public void RemoveStamina(){
         if(this.QuantidadeSlots <= 0) return;
-        this.Slots[this.QuantidadeSlots-1].sprite = this.StaminaVazia;
         this.QuantidadeSlots--;
+        this.Slots[this.QuantidadeSlots].sprite = this.StaminaVazia;
     }
 
     // ANIMAÇÃO INICIAL - inicio
