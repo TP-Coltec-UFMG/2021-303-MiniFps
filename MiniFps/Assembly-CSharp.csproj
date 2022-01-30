@@ -81,6 +81,7 @@
      <Compile Include="Assets\Package Assets\CrossPlatformInput\Scripts\Joystick.cs" />
      <Compile Include="Assets\Package Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Scripts\PlayerHud\HudControl.cs" />
+     <Compile Include="Assets\Scripts\MenuPrincipal\MB_ButtonController.cs" />
      <Compile Include="Assets\Package Assets\Characters\RollerBall\Scripts\Ball.cs" />
      <Compile Include="Assets\Mapa\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
      <Compile Include="Assets\Package Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
@@ -474,7 +475,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -822,34 +823,34 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/henri/Documents/GitHub/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Erik/Documents/Colégio Técnico - UFMG/Coltec 3º Ano/TP-2021/Unity_Projects/2021-303-MiniFps/MiniFps/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
