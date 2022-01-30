@@ -42,7 +42,7 @@ public class Timer : MonoBehaviour
 
        timer.text = minutes.ToString("00") + ":" + seconds.ToString("00");
 
-       if(minutes == 0 && seconds == 0){
+       if(minutes <= 0 && seconds <= 0){
             gameControl.LoseSituation();
        }
     }

@@ -4,11 +4,25 @@ using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {   
-    public void WinSituation(){
+    [SerializeField] private GameObject WinObj;
+    [SerializeField] private GameObject LoseObj;
+    [SerializeField] private GameObject ButtonObj;
 
+    private void aux(){
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        ButtonObj.SetActive(true);
+    }
+
+    public void WinSituation(){
+        this.aux();
+        WinObj.SetActive(true);
+                
     }
 
     public void LoseSituation(){
-
+        this.aux();
+        LoseObj.SetActive(true);    
     }
 }
