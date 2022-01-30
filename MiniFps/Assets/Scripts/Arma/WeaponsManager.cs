@@ -20,15 +20,6 @@ public class WeaponsManager : MonoBehaviour {
         else if(Input.GetKeyDown(KeyCode.Alpha2)){
             changeWeapon(1);
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha3)){
-            changeWeapon(2);
-        }
-        else if(Input.GetKeyDown(KeyCode.Alpha4)){
-            changeWeapon(3);
-        }
-        else if(Input.GetKeyDown(KeyCode.Alpha5)){
-            changeWeapon(4);
-        }
     }
 
     void changeWeapon(int new_weaponIndex){

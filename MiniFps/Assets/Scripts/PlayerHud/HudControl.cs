@@ -12,7 +12,7 @@ public class HudControl : MonoBehaviour
     void Start()
     {
         this.LifeControl.AnimacaoInicial(0f);
-        this.StaminaControl.AnimacaoInicial(0f);      
+        this.StaminaControl.AnimacaoInicial(0f);  
     }
     
 }

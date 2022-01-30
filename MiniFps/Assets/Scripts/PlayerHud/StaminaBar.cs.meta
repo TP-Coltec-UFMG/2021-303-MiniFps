@@ -1,9 +1,12 @@
 fileFormatVersion: 2
-guid: abeec48cb5f777c4abafb9cfe5725136
+guid: f04100f5cddf68e459456288e9ee5bf0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - StaminaCheia: {fileID: 21300000, guid: 7b97371ce071ca64dbfa1e0d393d5ade, type: 3}
+  - StaminaVazia: {fileID: 21300000, guid: f832f58a71e06454f8bb538a2657a2d8, type: 3}
+  - PlayerController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

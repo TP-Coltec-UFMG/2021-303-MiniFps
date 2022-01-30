@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +17,7 @@ public class StaminaBar : MonoBehaviour
         if(PlayerController.UpStamina){
             PlayerController.UpStamina = false;
             this.AddStamina();
-            
+
         }
         if(PlayerController.DownStamina){
             PlayerController.DownStamina = false;
@@ -57,7 +56,6 @@ public class StaminaBar : MonoBehaviour
             }   
         }
     // ANIMAÇÃO INICIAL - fim
-
     // ANIMAÇÃO PARA PISCAR TODAS AS VIDAS - inicio
         public void PiscaTodasOsSlots(float StartDelay){
             Invoke("PV_AuxStar",StartDelay);
@@ -70,8 +68,6 @@ public class StaminaBar : MonoBehaviour
             for(int i=0;i<8;i++) this.SwitchSlot(i);   
         }
     // ANIMAÇÃO PARA PISCAR TODAS AS VIDAS - fim
-
-
     private void SwitchSlot(int Id){
         if(this.Slots[Id].sprite == this.StaminaCheia){    
             this.Slots[Id].sprite = this.StaminaVazia;
