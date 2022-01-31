@@ -41,7 +41,7 @@ Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a se
 
 ## Menu Principal
 
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/MenuView.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/MenuView.jpeg?raw=true">
 
 ### Configurações 
 
@@ -53,7 +53,7 @@ Esse tópico irá ser concluído assim que todas as cenas estejam adequadas a se
 
 ### Interface em jogo
 
-<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/UIInGame.png.png?raw=true">
+<img src = "https://github.com/TP-Coltec-UFMG/2021-303-MiniFps/blob/main/Docs/Prints%20do%20jogo/UIInGame.jpeg?raw=true">
 
 ## _Download_
 Em breve...
