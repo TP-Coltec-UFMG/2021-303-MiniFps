@@ -16,6 +16,8 @@ public class LifeBar : MonoBehaviour
         Invoke("LoadAnimacaoVida", StarDelay);      
     }
 
+    // Meu comentário novo
+
     public void AddVida(){
         if(this.QuantidadeVidas >= 4) return;
         this.Vidas[this.QuantidadeVidas].sprite = this.VidaCheia;
